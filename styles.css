@@ -1,0 +1,51 @@
+.center_nav {
+  padding-right: 100px !important;
+}
+
+.corousal1 img {
+  height: 100vh;
+}
+
+.home_input {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.carousel-caption > h5 {
+  position: relative;
+  bottom: 250px;
+}
+
+.carousel-caption > p {
+  position: relative;
+  bottom: 240px;
+}
+.nav-item > a:hover {
+  border-bottom: 1px solid black;
+  font-weight: 600;
+}
+@media (max-width: 400px) {
+  .services {
+    width: 120% !important;
+    background-color: blue;
+  }
+  .footer {
+    width: 120% !important;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  .about {
+    width: 120%;
+    justify-content: center;
+    margin: auto;
+  }
+  .corousal1 {
+    width: 120%;
+  }
+
+  .contact {
+    width: 120%;
+  }
+}
